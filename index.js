@@ -1,0 +1,19 @@
+import express from "express";
+import cors from "cors"
+import fs from "fs"
+
+const PORT = 3001
+
+const app = express()
+
+app.listen(PORT, () => {
+    console.log('Server works');
+})
+
+app.use(cors())
+
+const products = JSON.parse(fs.readFileSync('./data/products.json'))
+app.get('/data/products', (req, res) => {
+   res.json(products)
+    
+})
