@@ -10,18 +10,19 @@
     },
     {
        "id": 1, 
-       "name": "Брошь",
+       "name": "Брошь в виде инструмента",
        "price": 1200,
        "imageList": [
-          { "id": 1, "img": "сережки.png", "alt": "" },
-          { "id": 2, "img": "image2", "alt": "" }
+          { "id": 1, "img": "shop/item1a.jpg", "alt": "" },
+          { "id": 2, "img": "shop/item1b.jpg", "alt": "" },
+          { "id": 3, "img": "shop/item1c.jpg", "alt": "" }
          ], 
-         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsum ducimus deserunt saepe sint alias cumque in provident, quasi minima?",
+         "description": "Брошь из полимерной глины. ручная работа. Размеры: 2,5×2,5. Цвет застежки: бронза",
           "valute": "р"
     },
     {
         "id": 2, 
-        "name": "Штука",
+        "name": "Ожерелье из бисера",
         "price": 1000,
         "imageList": [
            { "id": 1, "img": "image1", "alt": "" },
