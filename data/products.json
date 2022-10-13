@@ -25,11 +25,13 @@
         "name": "Ожерелье из бисера",
         "price": 1000,
         "imageList": [
-           { "id": 1, "img": "image1", "alt": "" },
-           { "id": 2, "img": "image2", "alt": "" },
-           { "id": 2, "img": "image3", "alt": "" }
+           { "id": 1, "img": "shop/item2a.jpg", "alt": "" },
+           { "id": 2, "img": "shop/item2b.jpg", "alt": "" },
+           { "id": 3, "img": "shop/item2c.jpg", "alt": "" },
+           { "id": 4, "img": "shop/item2d.jpg", "alt": "" }
+          
           ], 
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsum ducimus deserunt saepe sint alias cumque in provident, quasi minima?",
+          "description": "Украшение на шею из бисера. Бисер, стеклярус, перламутр, серебрянный ключ. Размер: 32см",
            "valute": "р"
      }
  ]
