@@ -10,7 +10,10 @@ app.listen(PORT, () => {
     console.log('Server works');
 })
 
-app.use(cors())
+app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'DELETE', 'UPDATE', 'PUT', 'PATCH']
+}))
 
 const products = JSON.parse(fs.readFileSync('./data/products.json'))
 app.get('/data/products', (req, res) => {
