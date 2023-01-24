@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors"
 import fs from "fs"
 
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 3001
 
 const app = express()
 
